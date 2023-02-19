@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="update" />
+                    <option name="lastUsedInstant" value="1676820942" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1676820337" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2LX7KGMTs3JLrdHhuPzHlPzKg4m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WCT/Desktop/Academic/5/EE5209 Web Application Development/Project/ProjectGitHub&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2021.1.4\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TypeScript JSX&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\routes" />
+      <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\routes\Menu" />
+      <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\routes\Menu\DressingM" />
+      <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\routes\About" />
+      <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\NaviBar\MenuImages\DressM" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="" />
+      <created>1676005510956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676005510956</updated>
+      <workItem from="1676005512200" duration="1817000" />
+      <workItem from="1676007586563" duration="4154000" />
+      <workItem from="1676021582557" duration="898000" />
+      <workItem from="1676024370465" duration="7000" />
+      <workItem from="1676025522206" duration="995000" />
+      <workItem from="1676034898835" duration="4637000" />
+      <workItem from="1676041893688" duration="2499000" />
+      <workItem from="1676101493561" duration="4283000" />
+      <workItem from="1676114806230" duration="7018000" />
+      <workItem from="1676124803387" duration="640000" />
+      <workItem from="1676128556939" duration="6536000" />
+      <workItem from="1676136346785" duration="16000" />
+      <workItem from="1676139133610" duration="82000" />
+      <workItem from="1676139771531" duration="2821000" />
+      <workItem from="1676273589500" duration="47000" />
+      <workItem from="1676274087636" duration="61000" />
+      <workItem from="1676274282557" duration="193000" />
+      <workItem from="1676290036923" duration="640000" />
+      <workItem from="1676401743884" duration="3002000" />
+      <workItem from="1676406805326" duration="1139000" />
+      <workItem from="1676433743883" duration="8000" />
+      <workItem from="1676434670359" duration="3838000" />
+      <workItem from="1676438699849" duration="1833000" />
+      <workItem from="1676446731976" duration="8093000" />
+      <workItem from="1676456735787" duration="2146000" />
+      <workItem from="1676460516984" duration="787000" />
+      <workItem from="1676468992473" duration="74000" />
+      <workItem from="1676481136392" duration="1285000" />
+      <workItem from="1676483247794" duration="2631000" />
+      <workItem from="1676486954821" duration="256000" />
+      <workItem from="1676487298026" duration="1174000" />
+      <workItem from="1676490661108" duration="39000" />
+      <workItem from="1676491867038" duration="2342000" />
+      <workItem from="1676526636372" duration="1469000" />
+      <workItem from="1676559269595" duration="15000" />
+      <workItem from="1676656207530" duration="7101000" />
+      <workItem from="1676724926059" duration="1229000" />
+      <workItem from="1676728772294" duration="81000" />
+      <workItem from="1676749942836" duration="6078000" />
+      <workItem from="1676782587700" duration="595000" />
+      <workItem from="1676784420650" duration="908000" />
+      <workItem from="1676785377578" duration="411000" />
+      <workItem from="1676818840890" duration="345000" />
+      <workItem from="1676819194166" duration="2906000" />
+      <workItem from="1676822487512" duration="969000" />
+      <workItem from="1676823521589" duration="310000" />
+      <workItem from="1676823916866" duration="427000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialize project using Create React App">
+      <created>1676006672466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676006672466</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialize project using Create React App">
+      <created>1676006933399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676006933399</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initialize project using Create React App">
+      <created>1676006941712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676006941712</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initialize project using Create React App">
+      <created>1676022302839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676022302840</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initialize project using Create React App">
+      <created>1676114921332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676114921332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initialize project using Create React App">
+      <created>1676119211753</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676119211754</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initialize project using Create React App">
+      <created>1676119621169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676119621169</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initialize project using Create React App">
+      <created>1676122037629</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676122037629</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initialize project using Create React App">
+      <created>1676290302026</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676290302026</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initialize project using Create React App">
+      <created>1676401935400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676401935400</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Setup Front view">
+      <created>1676452775438</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676452775438</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Setup Front view">
+      <created>1676461289026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676461289028</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Setup Front view">
+      <created>1676487846741</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676487846741</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Setup Front view">
+      <created>1676494204717</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676494204717</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new interface">
+      <created>1676784474583</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676784474583</updated>
+    </task>
+    <task id="LOCAL-00016" summary="new interface">
+      <created>1676784515847</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676784515847</updated>
+    </task>
+    <task id="LOCAL-00017" summary="new interface">
+      <created>1676785196473</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676785196473</updated>
+    </task>
+    <task id="LOCAL-00018" summary="new interface">
+      <created>1676785424345</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676785424345</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new interface">
+      <created>1676822812592</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676822812593</updated>
+    </task>
+    <task id="LOCAL-00020" summary="new interface">
+      <created>1676823595861</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676823595861</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize project using Create React App" />
+    <MESSAGE value="Setup Front view" />
+    <MESSAGE value="new interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="new interface" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

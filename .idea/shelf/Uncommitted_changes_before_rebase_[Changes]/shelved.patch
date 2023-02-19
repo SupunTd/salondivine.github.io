@@ -1,0 +1,19 @@
+Index: src/Main/Main.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\nimport \"../index.css\";\r\nimport Logbar from '../Components/Header/Logbar/Logbar';\r\nimport Navbar from \"../Components/Header/Navbar/Navbar\";\r\n\r\nimport Footer from \"../Components/Footer/Footer\";\r\nimport Makeap from \"./Makeap/Makeap\";\r\n\r\nconst Main = () => \r\n{\r\n    return (\r\n        <>\r\n            <Logbar/>\r\n            <Navbar/>\r\n\r\n            <div className=\"main\">\r\n                <div className=\"overlay1\"></div>\r\n                <video src=\"https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/PkCzQ9J/videoblocks-scissors-cut-hair-close-up_sw7dtgfpz__6a317ccde16caf99848bcfc05c823de3__P360.mp4\" autoPlay loop muted/>\r\n                <div className= \"content1\">\r\n                    <h1>Indian Bridal Dressing</h1>\r\n                </div>\r\n                <Makeap/>\r\n            </div>\r\n            <Footer/>\r\n\r\n        </>\r\n    );\r\n}\r\n\r\nexport default Main;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main/Main.jsx b/src/Main/Main.jsx
+--- a/src/Main/Main.jsx	(revision d6578a269171b15745f3248e1f162cdb53d3ec86)
++++ b/src/Main/Main.jsx	(date 1676819962361)
+@@ -6,7 +6,7 @@
+ import Footer from "../Components/Footer/Footer";
+ import Makeap from "./Makeap/Makeap";
+ 
+-const Main = () => 
++const Main = () =>
+ {
+     return (
+         <>

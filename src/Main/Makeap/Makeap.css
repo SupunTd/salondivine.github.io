@@ -1,0 +1,29 @@
+.appointment-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.appointment-button button {
+    position: absolute;
+    top: 1100px;
+    background-color: rgba(180, 32, 211, 0.96);
+    color: #ffffff;
+    padding: 2rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.appointment-button button:hover {
+    background-color: #ff0062;
+}
+.overlay2{
+    position:absolute;
+    width: 100%;
+    height: 150px;
+    top: 1100px;
+    left: 0;
+    background-color: rgba(255, 201, 201, 0.45);
+}
