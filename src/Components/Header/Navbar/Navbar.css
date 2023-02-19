@@ -1,0 +1,65 @@
+nav {
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #eadac0;
+}
+.n-left {
+    padding: 0 30px;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    gap :5rem;
+    color: #000000;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+.n-right{
+    flex:1px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 60px;
+    height: 30px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav .n-right>ul{
+    display: flex;
+    gap: 6rem;
+}
+.n-toggle div{
+    width: 2rem;
+    height:0.2rem;
+    margin: 0.4rem;
+    background: darkblue;
+}
+.n-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and(max-width:768px)
+{
+    .n-toggle{
+        display: block;
+    }
+    .n-right{
+        position: fixed;
+        top:7vh;
+        right: 0;
+        height:93vh;
+        width: 50%;
+        background: darksalmon;
+    }
+}
+
+

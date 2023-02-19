@@ -1,0 +1,36 @@
+log {
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+
+    background-color: #FDF5E8;
+
+}
+.l-text1 {
+    padding: 0 10px;
+    font-size: 20px;
+}
+.Logbutton button{
+    padding: 0 10px;
+    font-size: 20px;
+    background-color: rgba(180, 32, 211, 0.96);
+    color: #ffffff;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.Logbutton button:hover {
+    background-color: #ee9a9a;
+}
+.l-text2 {
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+l-left>ul{
+    display: flex;
+    gap: 6rem;
+}
+
