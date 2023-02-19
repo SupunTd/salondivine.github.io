@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface" />
+    <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +182,7 @@
       <workItem from="1676819194166" duration="2906000" />
       <workItem from="1676822487512" duration="969000" />
       <workItem from="1676823521589" duration="310000" />
-      <workItem from="1676823916866" duration="427000" />
+      <workItem from="1676823916866" duration="1417000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1676006672466</created>
