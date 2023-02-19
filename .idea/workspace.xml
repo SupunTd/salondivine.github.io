@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/salondivine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Navbar/Navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Navbar/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Navbar/logon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Login/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Login/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Signup/Signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Signup/Signup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Makeap/Makeap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Makeap/Makeap.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/intro-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/project1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/project2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/project3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/project4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/react1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/react2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dummydata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/About.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu/DressMenu/DressMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu/DressMenu/DressMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu/PackageMenu/PackageMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu/SalonMenu/SalonMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu/SalonMenu/SalonMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu/SpaMenu/SpaMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Menu/SpaMenu/SpaMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Packages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-    </list>
+    <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,6 +178,7 @@
       <workItem from="1676819194166" duration="2906000" />
       <workItem from="1676822487512" duration="969000" />
       <workItem from="1676823521589" duration="310000" />
+      <workItem from="1676823916866" duration="427000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1676006672466</created>
