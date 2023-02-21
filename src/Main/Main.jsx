@@ -1,17 +1,16 @@
 import React from "react";
 import "../index.css";
 import Logbar from '../Components/Header/Logbar/Logbar';
-import Navbar from "../Components/Header/Navbar/Navbar";
 
 import Footer from "../Components/Footer/Footer";
 import Makeap from "./Makeap/Makeap";
-
+import Hnew from "./Hnew/Hnew"
 const Main = () =>
 {
     return (
         <>
             <Logbar/>
-            <Navbar/>
+            <Hnew/>
 
             <div className="main">
                 <div className="overlay1"></div>
