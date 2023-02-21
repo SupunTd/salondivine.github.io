@@ -1,10 +1,8 @@
 import React from 'react';
 import './Logbar.css';
 import {Link} from "react-router-dom";
-import {useNavigate} from "react-router";
 
 const Logbar = () => {
-    const navigate = useNavigate();
     return (
         <log>
             <l-left>
