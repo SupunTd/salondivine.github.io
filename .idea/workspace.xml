@@ -4,6 +4,9 @@
     <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Menu.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +195,7 @@
       <workItem from="1676983991143" duration="22000" />
       <workItem from="1676984576821" duration="331000" />
       <workItem from="1676987270653" duration="3078000" />
-      <workItem from="1676990451247" duration="2782000" />
+      <workItem from="1676990451247" duration="6345000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1676006672466</created>
@@ -334,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676823595861</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="new interface">
+      <created>1676995086740</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676995086740</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

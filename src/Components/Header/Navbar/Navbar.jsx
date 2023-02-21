@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logon1 from './logon1.png';
+import {Link} from "react-router-dom";
 const Navbar = () => {
     return (
         <>
@@ -16,10 +17,10 @@ const Navbar = () => {
             <div className="n-right">
                 <ul style={{listStyleType:"none"}}>
                     <li>
-                    <a href="/Menu">Menu</a></li>
-                    <li><a href="/Packages">Packages</a></li>
-                    <li><a href="/About.jsx">About</a></li>
-                    <li><a href="/Contact">Contact</a></li>
+                    <Link to="/Menu">Menu</Link></li>
+                    <li><Link to="/Packages">Packages</Link></li>
+                    <li><Link to="/About.jsx">About</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
                 </ul>
             </div>
 
