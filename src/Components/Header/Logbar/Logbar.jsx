@@ -1,6 +1,6 @@
 import React from 'react';
 import './Logbar.css';
-
+import {Link} from "react-router-dom";
 
 const Logbar = () => {
     return (
@@ -13,10 +13,10 @@ const Logbar = () => {
             </l-left>
             <div className="Logbutton">
             <l-text1>Do you have an account?</l-text1>
-            <button>
-                <a href="/Login">Log In</a>
+            <button >
+                <Link to="/Login">Log In</Link>
             </button>
-            <l-text2> <a href="/Signup">Sign Up</a></l-text2>
+            <l-text2> <Link to="/Signup">Sign Up</Link></l-text2>
             </div>
         </log>
     );
