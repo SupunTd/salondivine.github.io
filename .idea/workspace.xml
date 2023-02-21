@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface">
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Navbar/Navbar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,7 @@
       <workItem from="1676983991143" duration="22000" />
       <workItem from="1676984576821" duration="331000" />
       <workItem from="1676987270653" duration="3078000" />
-      <workItem from="1676990451247" duration="6447000" />
+      <workItem from="1676990451247" duration="6888000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1676006672466</created>
@@ -347,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676998686933</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new interface">
+      <created>1676998761376</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676998761377</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
