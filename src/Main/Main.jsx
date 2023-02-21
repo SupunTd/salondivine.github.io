@@ -5,12 +5,14 @@ import Logbar from '../Components/Header/Logbar/Logbar';
 import Footer from "../Components/Footer/Footer";
 import Makeap from "./Makeap/Makeap";
 import Hnew from "./Hnew/Hnew"
+import Navbar from "../Components/Header/Navbar/Navbar";
 const Main = () =>
 {
     return (
         <>
             <Logbar/>
             <Hnew/>
+            <Navbar/>
 
             <div className="main">
                 <div className="overlay1"></div>
