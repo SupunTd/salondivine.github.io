@@ -4,8 +4,8 @@ import './Makeap.css';
 function AppointmentButton() {
     return (
         <div className="appointment-button">
-            <div className="overlay2"></div>
-            <button>Make an Appointment</button>
+            <div className="OverlayLine"></div>
+            <button className="Button">Make an Appointment</button>
         </div>
     );
 }

@@ -10,15 +10,15 @@ log {
 }
 .l-text1 {
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .Logbutton button{
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 22px;
     background-color: rgba(180, 32, 211, 0.96);
     color: #ffffff;
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 0.6rem;
     cursor: pointer;
 }
 .Logbutton button:hover {

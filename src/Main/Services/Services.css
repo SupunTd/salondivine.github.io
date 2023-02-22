@@ -1,0 +1,91 @@
+.HomePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1000px;
+}
+
+.Services {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.ServicesHeader {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.ServicesDescription {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.ServicesIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ServiceIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.ServiceIcon:hover {
+    transform: scale(1.1);
+}
+
+.ServiceIcon.Selected {
+    border: 2px solid #f00;
+}
+
+.ServiceIcon img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 1rem;
+}
+
+.ServiceIcon p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ServiceDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServiceDetails img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 2rem;
+}
+
+.ServiceDetails h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.ServiceDetails p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
