@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/salondivine.github.io/static/css/main.a689ca92.css",
-    "main.js": "/salondivine.github.io/static/js/main.321a57c2.js",
+    "main.css": "/salondivine.github.io/static/css/main.b1cf6f8c.css",
+    "main.js": "/salondivine.github.io/static/js/main.a3fc0de7.js",
     "static/js/787.a03159f9.chunk.js": "/salondivine.github.io/static/js/787.a03159f9.chunk.js",
     "static/media/logon1.png": "/salondivine.github.io/static/media/logon1.1639012907256a11734b.png",
     "index.html": "/salondivine.github.io/index.html",
-    "main.a689ca92.css.map": "/salondivine.github.io/static/css/main.a689ca92.css.map",
-    "main.321a57c2.js.map": "/salondivine.github.io/static/js/main.321a57c2.js.map",
+    "main.b1cf6f8c.css.map": "/salondivine.github.io/static/css/main.b1cf6f8c.css.map",
+    "main.a3fc0de7.js.map": "/salondivine.github.io/static/js/main.a3fc0de7.js.map",
     "787.a03159f9.chunk.js.map": "/salondivine.github.io/static/js/787.a03159f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a689ca92.css",
-    "static/js/main.321a57c2.js"
+    "static/css/main.b1cf6f8c.css",
+    "static/js/main.a3fc0de7.js"
   ]
 }
