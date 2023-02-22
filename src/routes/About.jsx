@@ -1,12 +1,9 @@
 import React from 'react';
 import './About.css'
 
-function About() {
-  return (
-      <div className="About">
-</div>
-  );
-}
+const About = () => {
+  return <div>About</div>;
+};
 
 export default About;
 
