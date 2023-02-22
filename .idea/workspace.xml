@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new interface">
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.jsx" afterDir="false" />
+    <list default="true" id="fa2326dc-d66f-42a1-9e13-e1a0baef8e4c" name="Changes" comment="new bar">
+      <change afterPath="$PROJECT_DIR$/src/Main/Services/Services.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Services/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Logbar/Logbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Makeap/Makeap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Makeap/Makeap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Makeap/Makeap.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Makeap/Makeap.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +93,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/WCT/Desktop/Academic/5/EE5209 Web Application Development/Project/ProjectGitHub&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WCT/Desktop/Academic/5/EE5209 Web Application Development/Project/ProjectGitHub/salondivine/src/Main/Hnew&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,6 +110,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\Main\Hnew" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\routes" />
       <recent name="C:\Users\WCT\Desktop\Academic\5\EE5209 Web Application Development\Project\ProjectGitHub\salondivine\src\routes\Menu" />
@@ -191,7 +201,13 @@
       <workItem from="1676983991143" duration="22000" />
       <workItem from="1676984576821" duration="331000" />
       <workItem from="1676987270653" duration="3078000" />
-      <workItem from="1676990451247" duration="6447000" />
+      <workItem from="1676990451247" duration="7639000" />
+      <workItem from="1677000378474" duration="963000" />
+      <workItem from="1677001545482" duration="279000" />
+      <workItem from="1677067450308" duration="1237000" />
+      <workItem from="1677079193996" duration="5945000" />
+      <workItem from="1677095139884" duration="228000" />
+      <workItem from="1677095530333" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1676006672466</created>
@@ -347,7 +363,42 @@
       <option name="project" value="LOCAL" />
       <updated>1676998686933</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new interface">
+      <created>1676998761376</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676998761377</updated>
+    </task>
+    <task id="LOCAL-00024" summary="link">
+      <created>1676999206749</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676999206749</updated>
+    </task>
+    <task id="LOCAL-00025" summary="new bar">
+      <created>1677000831236</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677000831236</updated>
+    </task>
+    <task id="LOCAL-00026" summary="new bar">
+      <created>1677001656085</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677001656085</updated>
+    </task>
+    <task id="LOCAL-00027" summary="new bar">
+      <created>1677083798956</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677083798956</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +431,9 @@
     <MESSAGE value="Initialize project using Create React App" />
     <MESSAGE value="Setup Front view" />
     <MESSAGE value="new interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="new interface" />
+    <MESSAGE value="link" />
+    <MESSAGE value="new bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="new bar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

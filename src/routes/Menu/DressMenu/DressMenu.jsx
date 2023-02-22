@@ -2,6 +2,7 @@ import React from 'react';
 import './DressMenu.css';
 import Logbar from "../../../Components/Header/Logbar/Logbar";
 import Navbar from "../../../Components/Header/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
 function DressMenu() {
     return (
         <>
@@ -82,6 +83,7 @@ function DressMenu() {
                 </div>
             </div>
         </div>
+            <Footer/>
         </>
     );
 }
