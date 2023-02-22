@@ -29,7 +29,7 @@ log {
     font-size: 15px;
 }
 
-l-left>ul{
+.l-left>ul{
     display: flex;
     gap: 6rem;
 }

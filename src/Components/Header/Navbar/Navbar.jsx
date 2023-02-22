@@ -1,36 +1,47 @@
-import React from 'react';
-import './Navbar.css';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import "./Navbar.css"
+import React from "react";
 import logon1 from './logon1.png';
-import {Link} from "react-router-dom";
-const Navbar = () => {
+function Navbar() {
+    const [showMenu, setShowMenu] = useState(false);
+
+    function toggleMenu() {
+        setShowMenu(!showMenu);
+    }
+
     return (
-        <>
-        <nav>
+        <nav className="navbar">
             <div className="n-left">
-            <Link to="/">
-                <div className="navilogo">
-                <img src={logon1} className="logo" alt="logo" />
-                </div></Link>
-            <span>Salon Divine</span>
-            </div>
-            <div className="n-right">
-                <ul style={{listStyleType:"none"}}>
-                    <li>
-                    <Link to="/Menu">Menu</Link></li>
-                    <li><Link to="/Packages">Packages</Link></li>
-                    <li><Link to="/About.jsx">About</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
-                </ul>
+                <Link to="/" className="navbar-logo">
+                    <img src={logon1} className="logo" alt="logo" />
+                </Link>
+                <span>Salon Divine</span>
             </div>
 
-            <div className="n-toggle">
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
+            <div className={`navbar-menu ${showMenu ? 'is-active' : ''}`}>
+                <Link to="/Menu" className="navbar-item" onClick={toggleMenu}>
+                    Menu
+                </Link>
+                <Link to="/Packages" className="navbar-item" onClick={toggleMenu}>
+                    Packages
+                </Link>
+                <Link to="/About" className="navbar-item" onClick={toggleMenu}>
+                    About
+                </Link>
+                <Link to="/Contact" className="navbar-item" onClick={toggleMenu}>
+                    Contact
+                </Link>
             </div>
+
+            <button className="navbar-burger" onClick={toggleMenu}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
-        </>
     );
-};
+}
 
 export default Navbar;
