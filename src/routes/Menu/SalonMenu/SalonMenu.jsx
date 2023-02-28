@@ -10,11 +10,11 @@ function SalonMenu() {
         <div className="image-matrix">
             <div className="row">
                 <div className="column">
-                    <img src="https://i.pinimg.com/564x/7a/1f/fe/7a1ffe03caea1dc43a60f987aa4e5bd5.jpg" alt="di1" />
+                    <img src="https://i.pinimg.com/236x/11/10/44/1110449b36d3a81915e5fe43aa8fb491.jpg" alt="di1" />
                     <button>Add to Cart</button>
                 </div>
                 <div className="column">
-                    <img src="https://i.pinimg.com/564x/e8/e8/7a/e8e87a5cb6f0e716ad6eeca0d4fa6422.jpg" alt="di 2"/>
+                    <img src="https://i.pinimg.com/236x/66/0e/6e/660e6e4c0c0ec1ae144739a6d3d5e5ca.jpg" alt="di 2"/>
                     <button>Button 2</button>
                 </div>
                 <div className="column">

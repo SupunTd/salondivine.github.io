@@ -8,7 +8,7 @@
 }
 .n-left {
     padding: 0 30px;
-    font-size: 50px;
+    font-size: 40px;
     align-items: center;
     display: flex;
     gap :5rem;
@@ -43,7 +43,7 @@
 }
 
 .navbar-menu {
-    position: absolute;
+    position: static;
     top: 100%;
     left: 0;
     display: none;
@@ -64,7 +64,7 @@
     text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     .navbar-burger {
         display: none;
     }
@@ -80,5 +80,9 @@
 
     .navbar-item {
         margin: 0 1rem;
+    }
+    .n-left {
+        font-size: 50px;
+
     }
 }

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Services.css';
+import * as PropTypes from "prop-types";
+import Fade from 'react-reveal/Fade';
 
 const servicesData = [
     {
@@ -34,6 +36,12 @@ const servicesData = [
     }
 ];
 
+
+Fade.propTypes = {
+    left: PropTypes.bool,
+    children: PropTypes.node
+};
+
 function Services() {
     const [selectedService, setSelectedService] = useState(servicesData[0]);
 
@@ -58,7 +66,9 @@ function Services() {
             <div className="ServiceDetails">
                 <img src={selectedService.image} alt={selectedService.name} />
                 <h3>{selectedService.name}</h3>
+
                 <p>{selectedService.description}</p>
+
             </div>
         </div>
     );

@@ -23,7 +23,7 @@ function Navbar() {
                 <Link to="/Menu" className="navbar-item" onClick={toggleMenu}>
                     Menu
                 </Link>
-                <Link to="/Packages" className="navbar-item" onClick={toggleMenu}>
+                <Link to="/PackageMenu" className="navbar-item" onClick={toggleMenu}>
                     Packages
                 </Link>
                 <Link to="/About" className="navbar-item" onClick={toggleMenu}>

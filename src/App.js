@@ -8,7 +8,7 @@ import Menu from "./routes/Menu";
 import DressMenu from "../src/routes/Menu/DressMenu/DressMenu";
 import SalonMenu from "../src/routes/Menu/SalonMenu/SalonMenu";
 import SpaMenu from "../src/routes/Menu/SpaMenu/SpaMenu";
-import PackageMenu from "../src/routes/Menu/PackageMenu/PackageMenu";
+import PackageMenu from "./routes/Packages";
 import About from "./routes/About";
 
 function App() {
