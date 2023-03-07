@@ -12,7 +12,7 @@ function DressMenu() {
             <div className="row">
                 <div className="column">
                     <img src="https://i.pinimg.com/564x/7a/1f/fe/7a1ffe03caea1dc43a60f987aa4e5bd5.jpg" alt="di1" />
-                    <button>Add to Cart</button>
+                    <button>Button 1</button>
                 </div>
                 <div className="column">
                     <img src="https://i.pinimg.com/564x/e8/e8/7a/e8e87a5cb6f0e716ad6eeca0d4fa6422.jpg" alt="di 2"/>

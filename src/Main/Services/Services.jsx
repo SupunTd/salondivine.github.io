@@ -11,7 +11,7 @@ const servicesData = [
     },
     {
         name: 'Coloring',
-        image: 'https://example.com/coloring.jpg',
+        image: 'https://i.pinimg.com/236x/a7/5c/4f/a75c4fedce4b4c7f96003222c12d798d.jpg',
         description: 'We offer a wide range of hair coloring services, from subtle highlights to bold fashion colors.'
     },
     {
@@ -21,17 +21,17 @@ const servicesData = [
     },
     {
         name: 'Manicure',
-        image: 'https://example.com/manicure.jpg',
+        image: 'https://i.pinimg.com/236x/7e/3a/a8/7e3aa88cdf92e82f9eec0e6b942ffaa0.jpg',
         description: 'Pamper your hands with our professional manicure services, including nail shaping, cuticle care, and polish.'
     },
     {
         name: 'Pedicure',
-        image: 'https://example.com/pedicure.jpg',
+        image: 'https://i.pinimg.com/236x/d9/42/58/d942582404abf72baf7b6454536fb3e7.jpg',
         description: 'Treat your feet to a relaxing and refreshing pedicure that includes nail trimming, filing, and buffing.'
     },
     {
         name: 'Waxing',
-        image: 'https://example.com/waxing.jpg',
+        image: 'https://i.pinimg.com/236x/d1/25/51/d1255148f0747db69b5c47bdb793c5eb.jpg',
         description: 'Say goodbye to unwanted hair with our safe and effective waxing services for all parts of the body.'
     }
 ];
@@ -57,7 +57,6 @@ function Services() {
                             className={service === selectedService ? 'ServiceIcon Selected' : 'ServiceIcon'}
                             onClick={() => setSelectedService(service)}
                         >
-                            <img src={service.image} alt={service.name} />
                             <p>{service.name}</p>
                         </div>
                     ))}

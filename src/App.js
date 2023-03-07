@@ -10,6 +10,7 @@ import SalonMenu from "../src/routes/Menu/SalonMenu/SalonMenu";
 import SpaMenu from "../src/routes/Menu/SpaMenu/SpaMenu";
 import PackageMenu from "./routes/Packages";
 import About from "./routes/About";
+import Contact from "./routes/Contact";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/Signup" element={<SignUp />} />
                 <Route path="/Menu" element={<Menu />} />
                 <Route path="/About" element={<About />} />
+                    <Route path="/Contact" element={<Contact />} />
                 <Route path="/DressMenu" element={<DressMenu />} />
                 <Route path="/SalonMenu" element={<SalonMenu />} />
                 <Route path="/SpaMenu" element={<SpaMenu />} />

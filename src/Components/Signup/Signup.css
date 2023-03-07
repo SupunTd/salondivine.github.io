@@ -5,6 +5,10 @@
     padding: 2rem;
     background-color: #f2f2f2;
     border-radius: 5px;
+    height: 90vh;
+    justify-content: center;
+    background-image: linear-gradient(79deg,#1eb2a6 ,#6bdefe,#0062cc, #ee9a9a);
+
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
