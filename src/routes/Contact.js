@@ -1,64 +1,28 @@
-import React, { useState } from 'react';
-import './Contact.css'
+import React from "react";
+import "./Contact.css";
 import Logbar from "../Components/Header/Logbar/Logbar";
 import Navbar from "../Components/Header/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
+
 const Contact = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-    // TODO: Add code to handle form submission
-  };
-
   return (
       <>
-      <Logbar/>
-          <Navbar/>
-      <div className="contact-page">
-        <div className="container">
-          <h1>Contact Us</h1>
-          <form onSubmit={handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="name">Name:</label>
-              <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={name}
-                  onChange={(event) => setName(event.target.value)}
-                  required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Email:</label>
-              <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={email}
-                  onChange={(event) => setEmail(event.target.value)}
-                  required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message:</label>
-              <textarea
-                  id="message"
-                  name="message"
-                  value={message}
-                  onChange={(event) => setMessage(event.target.value)}
-                  required
-              />
-            </div>
-            <button type="submit">Send</button>
-          </form>
+          <Logbar />
+          <Navbar />
+        <div className="contact-container">
+          <div className="contact-background"></div>
+          <div className="contact-content">
+            <h2>Contact Us</h2>
+            <form>
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" name="name" required />
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <label htmlFor="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </div>
-      </div>
-          <Footer/>
       </>
   );
 };

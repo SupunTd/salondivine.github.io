@@ -4,6 +4,20 @@ import Logbar from "../Components/Header/Logbar/Logbar";
 import Navbar from "../Components/Header/Navbar/Navbar";
 const Packages = () => {
 
+    const handleBookNow = (image, title) => {
+        fetch('/api/cart', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ image, title })
+        })
+            .then(res => res.json())
+            .then(data => console.log(data))
+            .catch(err => console.log(err));
+    };
+
+
     return (
         <>
             <Logbar/>

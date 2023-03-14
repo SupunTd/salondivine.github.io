@@ -6,30 +6,29 @@ const Footer = () => {
         <footer>
             <div className='container'>
                 <div className='logoname'>
-                    <h1>Salon Divine</h1>
-                    <span>You Have Best Option</span>
-                    <p>The purity of your heart is seen in the sincerity of your smile.</p>
+                    <div className="name">Salon Divine</div>
+                    <div className="f-description">You Have Best Option</div>
+                    <div className="f-dis-2">The purity of your heart is seen in the sincerity of your smile.</div>
                 </div>
-
                 <div className='box last'>
-                    <h3>Explore</h3>
+                    <h3>Our Branches</h3>
                     <ul>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Courses</li>
-                        <li>Blog</li>
-                        <li>Contact us</li>
+                        <li>Kottawa</li>
+                        <li>Galle</li>
+                        <li>Kandy</li>
+                        <li>Rathnapura</li>
+                        <li>Nugegoda</li>
                     </ul>
                 </div>
 
                 <div className='box last'>
-                    <h3>Quick Links</h3>
+                    <h3>Special Offers for</h3>
                     <ul>
-                        <li>Contact Us</li>
-                        <li>Pricing</li>
-                        <li>Terms & Conditions</li>
-                        <li>Privacy</li>
-                        <li>Feedbacks</li>
+                        <li>Wedding</li>
+                        <li>Party</li>
+                        <li>Birthday</li>
+                        <li>Functions</li>
+                        <li>Children</li>
                     </ul>
                 </div>
 
