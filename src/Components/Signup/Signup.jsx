@@ -1,127 +1,106 @@
-import React, { useState } from 'react';
-import './Signup.css';
+import { useState } from "react";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import  "./Signup.css";
 import Logbar from "../Header/Logbar/Logbar";
 import Navbar from "../Header/Navbar/Navbar";
 
-const SignUp = () => {
 
-
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [telephone, setTelephone] = useState('');
-    const [gender, setGender] = useState('Male');
-    const [birthday, setBirthday] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [confirmPassword, setConfirmPassword] = useState('');
-
-    const handleFirstNameChange = (event) => {
-        setFirstName(event.target.value);
+const Signup = () => {
+    const [data, setData] = useState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        password: "",
+    });
+    const [error, setError] = useState("");
+    const [msg,setMsg]=useState("");
+    const handleChange = ({ currentTarget: input }) => {
+        setData({ ...data, [input.name]: input.value });
     };
 
-    const handleLastNameChange = (event) => {
-        setLastName(event.target.value);
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const url = "http://localhost:4000/api/users";
+            const { data: res } = await axios.post(url, data);
+            setMsg(res.message);
+        } catch (error) {
+            if (
+                error.response &&
+                error.response.status >= 400 &&
+                error.response.status <= 500
+            ) {
+                setError(error.response.data.message);
+            }
+        }
     };
 
-    const handleTelephoneChange = (event) => {
-        setTelephone(event.target.value);
-    };
-
-    const handleGenderChange = (event) => {
-        setGender(event.target.value);
-    };
-
-    const handleBirthdayChange = (event) => {
-        setBirthday(event.target.value);
-    };
-
-    const handleEmailChange = (event) => {
-        setEmail(event.target.value);
-    };
-
-    const handlePasswordChange = (event) => {
-        setPassword(event.target.value);
-    };
-
-    const handleConfirmPasswordChange = (event) => {
-        setConfirmPassword(event.target.value);
-    };
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        console.log(`First Name: ${firstName}, Last Name: ${lastName}, Telephone: ${telephone}, Gender: ${gender}, Birthday: ${birthday}, Email: ${email}, Password: ${password}, Confirm Password: ${confirmPassword}`);
-    };
 
     return (
-<>
-    <Logbar/>
-    <Navbar/>
-
-        <div className="signup-container">
-
-
-
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="first-name">First Name:</label>
-                <input
-                    type="text"
-                    id="first-name"
-                    value={firstName}
-                    onChange={handleFirstNameChange}
-                />
-                <label htmlFor="last-name">Last Name:</label>
-                <input
-                    type="text"
-                    id="last-name"
-                    value={lastName}
-                    onChange={handleLastNameChange}
-                />
-                <label htmlFor="telephone">Telephone:</label>
-                <input
-                    type="tel"
-                    id="telephone"
-                    value={telephone}
-                    onChange={handleTelephoneChange}
-                />
-                <label htmlFor="gender">Gender:</label>
-                <select id="gender" value={gender} onChange={handleGenderChange}>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Other">Other</option>
-                </select>
-                <label htmlFor="birthday">Birthday:</label>
-                <input
-                    type="date"
-                    id="birthday"
-                    value={birthday}
-                    onChange={handleBirthdayChange}
-                />
-                <label htmlFor="email">Email:</label>
-                <input
-                    type="email"
-                    id="email"
-                    value={email}
-                    onChange={handleEmailChange}
-                />
-                <label htmlFor="password">Password:</label>
-                <input
-                    type="password"
-                    id="password"
-                    value={password}
-                    onChange={handlePasswordChange}
-                />
-                <label htmlFor="confirm-password">Confirm Password:</label>
-                <input
-                    type="password"
-                    id="confirm-password"
-                    value={confirmPassword}
-                    onChange={handleConfirmPasswordChange}
-                />
-                <button type="submit">Sign Up</button>
-            </form>
+        <>
+            <Logbar/>
+            <Navbar/>
+        <div className="signup_container">
+            <div className="signup_form_container">
+                <div className="signup_left">
+                    <h1>Welcome Back</h1>
+                    <Link to="/login">
+                        <button type="signup_button" className="white_btn">
+                            Log In
+                        </button>
+                    </Link>
+                </div>
+                <div className="signup_right">
+                    <form className="signup_form_container" onSubmit={handleSubmit}>
+                        <h1>Create Account</h1>
+                        <input
+                            type="text"
+                            placeholder="First Name"
+                            name="firstName"
+                            onChange={handleChange}
+                            value={data.firstName}
+                            required
+                            className="signup_input"
+                        />
+                        <input
+                            type="text"
+                            placeholder="Last Name"
+                            name="lastName"
+                            onChange={handleChange}
+                            value={data.lastName}
+                            required
+                            className="signup_input"
+                        />
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            name="email"
+                            onChange={handleChange}
+                            value={data.email}
+                            required
+                            className="signup_input"
+                        />
+                        <input
+                            type="password"
+                            placeholder="Password"
+                            name="password"
+                            onChange={handleChange}
+                            value={data.password}
+                            required
+                            className="signup_input"
+                        />
+                        {error && <div className="signup_error_msg">{error}</div>}
+                        {msg && <div className="signup_success_msg">{msg}</div>}
+                        <button type="submit" className="signup_green_btn">
+                            Sing Up
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
-</>
+        </>
     );
 };
 
-export default SignUp;
+export default Signup;
